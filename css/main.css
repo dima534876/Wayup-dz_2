@@ -25,13 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
 	font-weight: 700;
-	line-height: 1.46em;
+	line-height: 1.2em;
 	color: #323232;
 }
 
 p {
 	margin: 0;
-	line-height: 1.58em;
+	line-height: 1.4em;
 }
 
 .container {
@@ -58,13 +58,23 @@ p {
 }
 
 .btn:hover {
-	background: #2C71FF
+	background: #f72155;
+}
+
+.section-title {
+	font-size: 36px;
+	padding-top: 103px;
+	margin-bottom: 17px;
+}
+
+.paragraph {
+
 }
 
 .header {
     background: linear-gradient(57.79deg, rgba(51, 5, 111, 0.58) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header-bg.jpg') no-repeat center top / cover;
     color: #fff;
-    height: 600px;
+	padding-bottom: 70px;
 }
 
 .nav {
@@ -78,7 +88,7 @@ p {
     Width:75px;
     Height: 42px;
     display: block;
-    margin-right: 144px;
+    margin-right: 121px;
 }
 
 .menu {}
@@ -96,4 +106,94 @@ p {
 
 .menu__item a:hover {
     border-bottom: 2px solid #fff;
+}
+
+.nav-tel {
+	font-size: 17px;
+	line-height: 1.14em;
+	font-weight: 700;
+	margin-left: 0;
+}
+
+.offer {
+	width: 572px;
+	margin-top: 142px;
+}
+.offer__title {
+	color: #fff;
+	font-size: 48px;
+}
+.offer__text {
+	width: 340px;
+	margin: 23px 0 21px;
+}
+.offer__btn {
+}
+.arrow-down {
+	background: url('../img/arrow-down.svg');
+	width: 16px;
+    height: 24px;
+    display: block;
+    opacity: 1;
+    transition: all 0.3s ease;
+	margin-top: 168px;
+}
+
+.arrow-down:hover {
+	opacity: 0.5;
+}
+
+.branches {
+	padding: ;
+}
+
+.section-title_branches {
+
+}
+
+.branches-text {
+	width: 510px;
+	margin-bottom: 51px;
+}
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 40px;
+	
+}
+
+
+
+.services__item {
+	width: 508px;
+	display: flex;
+	align-items:center;
+	margin-bottom: 51px;
+}
+
+
+
+.services__img {
+	width: 210px;
+	margin-right: 30px;
+	border-radius: 0px 10px 10px 10px;
+	
+}
+.services__wrapper {
+	
+}
+.services__title {
+	font-size: 19px;
+	
+}
+.services__text {
+	margin: 15px 0;
+	font-size: 15px;
+}
+.services__price {
+	font-size: 15px;
+	color:#FF4975;
+	
 }
