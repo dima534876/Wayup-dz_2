@@ -1,0 +1,99 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+    ;
+}
+
+* {
+	box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	line-height: 1.46em;
+	color: #323232;
+}
+
+p {
+	margin: 0;
+	line-height: 1.58em;
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.container_flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+	padding: 13px 0px;
+	background: #FF4975;
+	border-radius: 30px;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-weight: 400;
+	display: block;
+	width: 200px;
+	transition: all 0.5s ease;
+	text-align: center;
+}
+
+.btn:hover {
+	background: #2C71FF
+}
+
+.header {
+    background: linear-gradient(57.79deg, rgba(51, 5, 111, 0.58) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header-bg.jpg') no-repeat center top / cover;
+    color: #fff;
+    height: 600px;
+}
+
+.nav {
+    border-bottom: 1px solid;
+    color: rgba(255, 255, 255, 0.58);
+    text-align: center;
+}
+
+.logo {
+    background: url('../img/logo.svg');
+    Width:75px;
+    Height: 42px;
+    display: block;
+    margin-right: 144px;
+}
+
+.menu {}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item a {
+    color: #fff;
+    padding: 32px 23px;
+    display: block;
+    border-bottom: 2px solid rgba(255,255,255,0);
+}
+
+.menu__item a:hover {
+    border-bottom: 2px solid #fff;
+}
