@@ -79,7 +79,7 @@ a:hover {
 }
 
 .header {
-    background: linear-gradient(57.79deg, rgba(51, 5, 111, 0.58) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url('../img/header-bg.jpg') no-repeat center top / cover;
+	background: linear-gradient(57.79deg, rgb(111 64 5 / 38%) 27.19%, rgba(56, 32, 87, 0.29) 81.02%), url(../img/header-bg.jpg) no-repeat center top / cover;
     color: #fff;
 	padding-bottom: 70px;
 }
@@ -92,8 +92,8 @@ a:hover {
 
 .logo {
     background: url('../img/logo.svg');
-    Width:75px;
-    Height: 42px;
+    Width:98px;
+    Height: 38px;
     display: block;
 }
 
