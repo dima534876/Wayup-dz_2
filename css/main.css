@@ -454,7 +454,7 @@ a:hover {
 		width: 50%;
 	}
 	.projects-wrapper__link{
-		width: 310px;
+		max-width: 310px;
 	}
 	.projects-wrapper__img {
 		width: 100%;
@@ -492,15 +492,15 @@ a:hover {
 		margin-bottom: 51px;
 	}
 	.projects {
-		height: 1270px;
+		min-height: 1270px;
 	}
 	.projects-wrapper {
 		flex-wrap: wrap;
 	}
 	.projects-wrapper__link {
-		width: 345px;
+		max-width: 345px;
 	}
-	.projects-wrapper__link:nth-child(1) {
+	.projects-wrapper__link:nth-child(-n+2){
 		margin-bottom: 28px;
 	}
 	.achievements {
@@ -510,7 +510,7 @@ a:hover {
 		width: 100%;
 	}
 	.video-wrapper {
-		width: 720px;
+		max-width: 720px;
 	}
 	.video-frame {
 		width: 100%;
@@ -535,11 +535,177 @@ a:hover {
 	.container {
 		max-width: 540px;
 	}
+	.container_flex {
+		justify-content: space-between;
+	}
+
+	.nav {
+		padding: 21px 0 23px;
+	}
+
+	.menu__list {
+		display: none;
+		
+	}
+	.nav-tel {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.offer {
+		width: auto;
+	}
+
+	.offer__title {
+		font-size: 38px;
+		text-align: center;
+	}
+
+	.offer__text {
+		margin: 23px auto 21px;
+		text-align: center;
+	}
+
+	.arrow-down {
+		margin: 168px auto 0;
+	}
+
+	.section-title {
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.section-text {
+		width: 100%;
+		text-align: center;
+	}
+
+	.btn {
+		margin: 0 auto;
+	}
+
+	.projects {
+		min-height: 1660px;
+	}
+
+	.projects-wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.achievements {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.achievements__item {
+		width: 25%;
+	}
+
+	.achievements__item:nth-child(-n+4) {
+		margin-bottom: 40px;
+	}
+
+	.all-projects__text {
+		width: 90%;
+	}
+
+	.video-wrapper {
+		max-width: 540px;
+	}
+
+	.video-frame {
+		height: auto;
+		height: 310px;
+	}
 }
 
-/* Extra small: 0px (320px) - 575px */
+/* Extra small: 451px - 575 */
 @media (max-width: 575px) {
 	.container {
 		padding: 0 15px;
+		width: 100%;
+	}
+
+	.video-wrapper {
+		max-width: 420px;
+	}
+
+	.footer-friendship {
+		margin-top: 74px;
+	}
+	.footer-friendship__list {
+		margin-top: 30px;
+	}
+}
+
+/* Andrew's breakpoint: 0px (320) - 450px */
+@media (max-width: 450px) {
+	.container {
+		width: auto;
+	}
+
+	.offer {
+		margin-top: 30px;
+	}
+
+	.arrow-down {
+		margin-top: 60px;
+	}
+
+	.branches {
+		padding: 50px 0 30px;
+	}
+
+	.services__item {
+		display: inline;
+	}
+
+	.services__img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.services__wrapper {
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.projects {
+		padding-top: 50px;
+		min-height: 1860px;
+	}
+
+	.projects-wrapper__link {
+		width: auto;
+	}
+
+	.achievements__item {
+		width: 33.33%;
+	}
+
+	.achievements__item:nth-child(-n+6) {
+		margin-bottom: 45px;
+	}
+
+	.video {
+		padding-bottom: 40px;
+	}
+
+	.video-wrapper {
+		max-width: 90%;
+	}
+
+	.video-frame {
+		max-height: 190px;
+	}
+
+	.footer {
+		padding: 50px 0 50px;
+	}
+
+	.subscribe {
+		width: 100%;
 	}
 }
